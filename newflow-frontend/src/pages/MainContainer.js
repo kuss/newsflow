@@ -1,4 +1,5 @@
 import React from "react";
+import Chart from "../components/Chart";
 
 function MainContainer() {
   return (
@@ -6,7 +7,9 @@ function MainContainer() {
       <header>
         <h1>newsflow</h1>
       </header>
-      <main></main>
+      <main>
+        <Chart />
+      </main>
       <footer></footer>
     </article>
   );
