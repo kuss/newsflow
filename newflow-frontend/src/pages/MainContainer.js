@@ -3,7 +3,9 @@ import React from "react";
 function MainContainer() {
   return (
     <article className="mainContainer">
-      <header></header>
+      <header>
+        <h1>newsflow</h1>
+      </header>
       <main></main>
       <footer></footer>
     </article>
